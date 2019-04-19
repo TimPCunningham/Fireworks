@@ -8,8 +8,8 @@ class Flare {
     }
 
     update() {
-        this.velocity.add(0, 0.15);
-        this.velocity.limit(2.5);
+        this.velocity.add(0, 0.08);
+        this.velocity.limit(2.25);
         this.position.add(this.velocity);
 
         if(this.life < 0) {

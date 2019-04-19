@@ -5,7 +5,7 @@ let fireworks;
 let origin;
 
 function preload() {
-    foreground = loadImage('../assets/Foreground_White.png');
+    foreground = loadImage('/../assets/Foreground_White.png');
 }
 
 function setup() {
